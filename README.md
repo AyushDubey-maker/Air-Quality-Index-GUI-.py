@@ -5,4 +5,5 @@ Using this app one can get the AQI of a location using the Longitude and Latitud
 
 > ## Code Output:
 <img src='/aqi-1.png'/>
+<hr/>
 <img src='/aqi-2.png'/>
