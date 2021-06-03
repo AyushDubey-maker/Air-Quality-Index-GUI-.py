@@ -10,7 +10,7 @@ root=Tk()
 def getaqi():
   
     try:
-        api_requests=requests.get("https://www.airnowapi.org/aq/observation/latLong/current/?format=application/json&latitude="+ str(latitude.get()) +"&longitude="+ str(longitude.get()) +"&distance=25&API_KEY=24AC5342-CE2D-4757-ADC7-D8C4D13A15F2")
+        api_requests=requests.get("https://www.airnowapi.org/aq/observation/latLong/current/?format=application/json&latitude="+ str(latitude.get()) +"&longitude="+ str(longitude.get()) +"&distance=25&API_KEY=YOUR_API_KEY")
         api=json.loads(api_requests.content)
         city=api[0]['ReportingArea']
         quality=api[0]['AQI']
