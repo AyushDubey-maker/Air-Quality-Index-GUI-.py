@@ -3,7 +3,9 @@ Using this app one can get the AQI of a location using the Longitude and Latitud
 > ### Air Quality Index Scale:
 <img src='/AQI-Scale.jpeg'/>
 
-> ## Code Output:
+<details>
+  <summary>Code Output:</summary>
 <img src='/aqi-1.png'/>
 <hr/>
 <img src='/aqi-2.png'/>
+  </details>
